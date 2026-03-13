@@ -1,0 +1,391 @@
+{
+  "baseline": {
+    "rSynRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sWinTCP": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rPayloadMin": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rAckDelayMax": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rAckDelayMin": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rAckDelayAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sFinRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "duration": {
+      "mean": 0.353563011,
+      "std": 0.19107939848533667,
+      "min": 1e-06,
+      "max": 0.5,
+      "p95": 0.4998521,
+      "p99": 0.499982
+    },
+    "sPayloadAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sUrgRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sLoad": {
+      "mean": 2187337.4457324003,
+      "std": 36782363.42641065,
+      "min": 0.0,
+      "max": 856000000.0,
+      "p95": 1123198.163500001,
+      "p99": 4729214.086100003
+    },
+    "sttl": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rUrgRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sInterPacketAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rPshRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sSynRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sAckRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sPshRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rRstRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sFragmentRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sPayloadMin": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sBytesMax": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "protocol": {
+      "mean": 1.9912,
+      "std": 0.17527852121694776,
+      "min": 0.0,
+      "max": 4.0,
+      "p95": 2.0,
+      "p99": 2.0
+    },
+    "rFragmentRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sPayloadSum": {
+      "mean": 122.5048,
+      "std": 43.92488106938936,
+      "min": 0.0,
+      "max": 208.0,
+      "p95": 208.0,
+      "p99": 208.0
+    },
+    "rPayloadMax": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sPackets": {
+      "mean": 12.7454,
+      "std": 6.6574603896681195,
+      "min": 0.0,
+      "max": 21.0,
+      "p95": 21.0,
+      "p99": 21.0
+    },
+    "rBytesMax": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rWinTCP": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rLoad": {
+      "mean": 383649.0930956,
+      "std": 1378187.057507793,
+      "min": 0.0,
+      "max": 29300823.134,
+      "p95": 1854510.925850001,
+      "p99": 5895282.725090024
+    },
+    "sBytesSum": {
+      "mean": 785.1228,
+      "std": 381.76994921046366,
+      "min": 0.0,
+      "max": 1239.0,
+      "p95": 1239.0,
+      "p99": 1239.0
+    },
+    "rBytesAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sPayloadMax": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rttl": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sAckDelayMin": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sBytesMin": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sAckDelayAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rInterPacketAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rBytesSum": {
+      "mean": 931.6934,
+      "std": 342.87723720952954,
+      "min": 0.0,
+      "max": 1856.0,
+      "p95": 1636.6000000000022,
+      "p99": 1856.0
+    },
+    "rBytesMin": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rAckRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rPayloadAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "sBytesAvg": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rPackets": {
+      "mean": 15.6286,
+      "std": 5.9013440875786936,
+      "min": 0.0,
+      "max": 32.0,
+      "p95": 28.0,
+      "p99": 32.0
+    },
+    "sAckDelayMax": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rFinRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    },
+    "rPayloadSum": {
+      "mean": 119.095,
+      "std": 45.08397026660363,
+      "min": 0.0,
+      "max": 192.0,
+      "p95": 192.0,
+      "p99": 192.0
+    },
+    "sRstRate": {
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "max": NaN,
+      "p95": NaN,
+      "p99": NaN
+    }
+  },
+  "is_trained": true,
+  "trained_at": "2026-03-12T18:53:24.415613",
+  "sample_count": 5000
+}

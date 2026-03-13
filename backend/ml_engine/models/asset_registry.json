@@ -1,0 +1,119 @@
+{
+  "192.168.1.1": {
+    "name": "Gateway Router",
+    "type": "router",
+    "protocol": "TCP/IP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "TCP/IP"
+    ]
+  },
+  "192.168.1.2": {
+    "name": "SCADA Server",
+    "type": "scada",
+    "protocol": "Modbus TCP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "Modbus TCP"
+    ]
+  },
+  "192.168.1.10": {
+    "name": "PLC-01 (Tank)",
+    "type": "plc",
+    "protocol": "Modbus TCP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "Modbus TCP"
+    ]
+  },
+  "192.168.1.11": {
+    "name": "PLC-02 (Valve)",
+    "type": "plc",
+    "protocol": "Modbus TCP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "Modbus TCP"
+    ]
+  },
+  "192.168.1.20": {
+    "name": "HMI-01",
+    "type": "hmi",
+    "protocol": "EtherNet/IP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "EtherNet/IP"
+    ]
+  },
+  "192.168.1.100": {
+    "name": "Engineering Workstation",
+    "type": "workstation",
+    "protocol": "TCP/IP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "TCP/IP"
+    ]
+  },
+  "10.10.11.13": {
+    "name": "OT Network Gateway",
+    "type": "gateway",
+    "protocol": "TCP/IP",
+    "status": "known",
+    "first_seen": "2026-03-12T18:53:49.651916",
+    "last_seen": "2026-03-12T18:53:49.651916",
+    "packet_count": 0,
+    "attack_count": 0,
+    "protocols_seen": [
+      "TCP/IP"
+    ]
+  },
+  "45.33.32.156": {
+    "name": "Unknown-45.33.32.156",
+    "type": "unknown",
+    "protocol": "Modbus TCP",
+    "status": "rogue",
+    "first_seen": "2026-03-12T18:53:49.652919",
+    "last_seen": "2026-03-12T18:53:49.654918",
+    "packet_count": 2,
+    "attack_count": 2,
+    "protocols_seen": [
+      "Modbus TCP"
+    ]
+  },
+  "103.21.244.0": {
+    "name": "Unknown-103.21.244.0",
+    "type": "unknown",
+    "protocol": "Modbus TCP",
+    "status": "rogue",
+    "first_seen": "2026-03-12T18:53:49.654918",
+    "last_seen": "2026-03-12T18:53:49.654918",
+    "packet_count": 1,
+    "attack_count": 1,
+    "protocols_seen": [
+      "Modbus TCP"
+    ]
+  }
+}

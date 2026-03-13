@@ -1,0 +1,34 @@
+{
+  "blocklist": {
+    "45.33.32.156": {
+      "reason": "port-scan detected with 91.0% confidence",
+      "attack_type": "port-scan",
+      "severity": "MEDIUM",
+      "blocked_at": "2026-03-12T18:53:50.851708",
+      "auto": true
+    },
+    "103.21.244.0": {
+      "reason": "ddos detected with 95.0% confidence",
+      "attack_type": "ddos",
+      "severity": "CRITICAL",
+      "blocked_at": "2026-03-12T18:53:51.012084",
+      "auto": true
+    }
+  },
+  "log": [
+    {
+      "ip": "45.33.32.156",
+      "action": "BLOCKED",
+      "reason": "port-scan detected with 91.0% confidence",
+      "attack_type": "port-scan",
+      "time": "2026-03-12T18:53:50.851708"
+    },
+    {
+      "ip": "103.21.244.0",
+      "action": "BLOCKED",
+      "reason": "ddos detected with 95.0% confidence",
+      "attack_type": "ddos",
+      "time": "2026-03-12T18:53:51.012084"
+    }
+  ]
+}

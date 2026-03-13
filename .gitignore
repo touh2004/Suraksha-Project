@@ -1,0 +1,18 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Large ML models — regenerate with train.py
+backend/ml_engine/models/random_forest_binary.pkl
+backend/ml_engine/models/random_forest_multiclass.pkl
+
+# Dataset — too large for GitHub
+backend/ml_engine/dataset/
+
+# DB files
+*.db
