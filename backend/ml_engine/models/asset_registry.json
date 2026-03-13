@@ -31,11 +31,12 @@
     "protocol": "Modbus TCP",
     "status": "known",
     "first_seen": "2026-03-12T18:53:49.651916",
-    "last_seen": "2026-03-12T18:53:49.651916",
-    "packet_count": 0,
+    "last_seen": "2026-03-13T14:36:57.931500",
+    "packet_count": 2,
     "attack_count": 0,
     "protocols_seen": [
-      "Modbus TCP"
+      "Modbus TCP",
+      "DNP3"
     ]
   },
   "192.168.1.11": {
@@ -57,8 +58,8 @@
     "protocol": "EtherNet/IP",
     "status": "known",
     "first_seen": "2026-03-12T18:53:49.651916",
-    "last_seen": "2026-03-12T18:53:49.651916",
-    "packet_count": 0,
+    "last_seen": "2026-03-13T14:36:57.912164",
+    "packet_count": 1,
     "attack_count": 0,
     "protocols_seen": [
       "EtherNet/IP"
@@ -114,6 +115,32 @@
     "attack_count": 1,
     "protocols_seen": [
       "Modbus TCP"
+    ]
+  },
+  "192.168.1.99": {
+    "name": "Unknown-192.168.1.99",
+    "type": "unknown",
+    "protocol": "Modbus TCP",
+    "status": "rogue",
+    "first_seen": "2026-03-13T14:36:57.914159",
+    "last_seen": "2026-03-13T14:36:57.914159",
+    "packet_count": 1,
+    "attack_count": 1,
+    "protocols_seen": [
+      "Modbus TCP"
+    ]
+  },
+  "10.0.0.55": {
+    "name": "Unknown-10.0.0.55",
+    "type": "unknown",
+    "protocol": "DNP3",
+    "status": "rogue",
+    "first_seen": "2026-03-13T14:36:57.927683",
+    "last_seen": "2026-03-13T14:36:57.927683",
+    "packet_count": 1,
+    "attack_count": 1,
+    "protocols_seen": [
+      "DNP3"
     ]
   }
 }

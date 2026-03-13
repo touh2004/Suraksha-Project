@@ -189,11 +189,22 @@ function App() {
     const interval = setInterval(fetchData, 3000);
 
     // Setup Live WebSocket
+    // apiClient.connectWebSocket((newAlert) => {
+    //   setAlerts((prevAlerts) => [newAlert, ...prevAlerts]);
+    //   if (newAlert.severity === 'CRITICAL') {
+    //      setIsUnderAttack(true);
+    //      // Force an immediate fetch to update all numbers immediately on attack
+    //      fetchData(); 
+    //   }
+    // });
+    // Setup Live WebSocket
     apiClient.connectWebSocket((newAlert) => {
       setAlerts((prevAlerts) => [newAlert, ...prevAlerts]);
-      if (newAlert.severity === 'CRITICAL') {
+      
+      // 🔥 FIX: Ab kisi bhi severe attack (CRITICAL, HIGH, ya MEDIUM) par dashboard RED hoga aur ML Data update hoga!
+      if (newAlert.severity === 'CRITICAL' || newAlert.severity === 'HIGH' || newAlert.severity === 'MEDIUM') {
          setIsUnderAttack(true);
-         // Force an immediate fetch to update all numbers immediately on attack
+         // Force an immediate fetch to update ML Anomaly numbers immediately
          fetchData(); 
       }
     });

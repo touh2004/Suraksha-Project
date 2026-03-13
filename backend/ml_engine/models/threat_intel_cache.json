@@ -16,5 +16,32 @@
     "description": "datacenter IP \u2014 possible VPS attack source",
     "confidence": 30,
     "checked_at": "2026-03-12T18:53:49.776244"
+  },
+  "8.8.8.8": {
+    "ip": "8.8.8.8",
+    "is_threat": false,
+    "risk": "LOW",
+    "source": "heuristic",
+    "description": "No known threat",
+    "confidence": 0,
+    "checked_at": "2026-03-13T14:36:58.411995"
+  },
+  "142.250.77.138": {
+    "ip": "142.250.77.138",
+    "is_threat": false,
+    "risk": "LOW",
+    "source": "heuristic",
+    "description": "No known threat",
+    "confidence": 0,
+    "checked_at": "2026-03-13T14:36:58.412999"
+  },
+  "130.1.11.127": {
+    "ip": "130.1.11.127",
+    "is_threat": false,
+    "risk": "LOW",
+    "source": "heuristic",
+    "description": "No known threat",
+    "confidence": 0,
+    "checked_at": "2026-03-13T14:36:58.415003"
   }
 }
